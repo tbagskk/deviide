@@ -1,0 +1,147 @@
+body
+{
+	font-family: Poppins;
+}
+
+.head
+{
+	
+	height: 5em;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-bottom: 2px solid black;
+	
+}
+.head2
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.menu
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	
+}
+
+a
+{
+	text-decoration: none;
+	font-size: 1.2em;
+	color: black;
+	font-weight: 600;
+
+
+}
+li
+{
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 1em;
+	
+}
+.connect
+{
+	height: 50px;
+	margin: 2em;
+	
+}
+.logo
+{
+
+	height: 70px;
+	margin: 2em;
+
+}
+.menu_tel
+{
+	display: none;
+}
+
+/*milieu de page*/
+
+.presentation
+{
+	background-color: white;
+	height: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.slider
+{
+	
+	width: 1200px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1em;
+	
+	
+
+}
+.slider_text
+{
+	
+	height: 350px;
+	width: 570px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-bottom: 200px;
+	
+}
+h1
+{
+ text-align: center;
+ font-size: 3em;
+
+}
+.slider_p
+{
+	font-size: 1.5em;
+	text-align: center;
+	
+	margin-top: -20px;
+}
+.slider_button
+{
+	height: 50px;
+	width: 200px;
+	border-radius: 10px;
+	font-size: 1em;
+	font-weight: 900;
+	background-color: #DCD9D9;
+	border:  none;
+	text-decoration: none;
+
+}
+
+
+
+.fonctionnement
+{
+	height: 500px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	
+}
+
+.f1
+{
+	border: 5px solid black;
+	height: 450px;
+	width: 300px;
+	border-radius: 20px;
+	margin: 20px;
+	background-color: white;
+}

@@ -1,0 +1,79 @@
+
+body
+{
+	font-family: Poppins;
+}
+
+
+
+
+.head
+{
+	background-color: #C7C7C7;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.connect
+{
+	display: none;
+	
+}
+.menu
+{
+	display: none;
+}
+.logo
+{
+
+	height: 10em;
+	margin: 1em;
+
+}
+.menu_tel
+{
+	height: 6em;
+	margin_top: 1em;
+	margin: 1em;
+}
+
+.presentation
+{
+	border: 5px solid black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	padding: 2em;
+}
+.slider
+{
+ text-align: center;
+ display: flex;
+ flex-direction: column-reverse;
+}
+.slider_text
+{
+	border: 5px solid black;
+	margin: 25px;
+}
+h1
+{
+	font-size: 4em;
+}
+.slider_p
+{
+	font-size: 2.5em;
+}
+.slider_button
+{
+	height: 120px;
+	width: 370px;
+	border-radius: 20px;
+	border: none;
+	background-color: #DCD9D9;
+	font-size: 2.5em;
+	font-weight: 700;
+	color: white;
+}
